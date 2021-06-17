@@ -16,8 +16,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<!-- Spring -->
-		<spring-framework.version>4.0.0.RELEASE</spring-framework.version>
-		<spring-data-jpa.version>1.4.3.RELEASE</spring-data-jpa.version>
+		<spring-framework.version>4.0.5.RELEASE</spring-framework.version>
+		<spring-data-jpa.version>1.4.5.RELEASE</spring-data-jpa.version>
 
 
 		<!-- Java EE / Java SE dependencies -->
@@ -60,7 +60,7 @@
 
 		<!-- Web dependencies -->
 		<webjars-bootstrap.version>2.3.0</webjars-bootstrap.version>
-		<webjars-jquery-ui.version>1.10.3</webjars-jquery-ui.version>
+		<webjars-jquery-ui.version>1.12.0</webjars-jquery-ui.version>
 		<webjars-jquery.version>2.0.3-1</webjars-jquery.version>
 		<dandelion.datatables.version>0.9.3</dandelion.datatables.version>
 
@@ -380,7 +380,7 @@
 				<version>3.0</version>
 				<configuration>
 					<compilerArguments>
-						<Xlint />
+						<Xlint/>
 					</compilerArguments>
 					<verbose>true</verbose>
 					<source>${java.version}</source>
